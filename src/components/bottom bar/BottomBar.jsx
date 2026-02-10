@@ -27,10 +27,6 @@ const BottomBar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]); 
 
-  useEffect(() => {
-    window.matchMedia()
-  })
-
   return (
     <AnimatePresence>
       {btmBarOpen && isMobile && (
