@@ -1,9 +1,10 @@
 import About from "./components/about/About"
-import Numbers from "./components/about/Numbers"
 import BottomBar from "./components/bottom bar/BottomBar"
+import Specials from "./components/coffee types/Specials"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
 import Header from "./components/header/Header"
+import SocialProof from "./components/header/SocialProof"
 import HeroSection from "./components/hero/HeroSection"
 import MapComponent from "./components/Location/MapComponent"
 
@@ -13,7 +14,8 @@ const App = () => {
       <Header />
        <BottomBar />
       <HeroSection />
-      <Numbers />
+      <SocialProof />
+      <Specials/>
       <About />
       <Contact />
       <MapComponent />

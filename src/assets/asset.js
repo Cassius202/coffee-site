@@ -6,8 +6,18 @@ import logo from "./logo-coffee.png";
 import image2 from "./nathan-dumlao-zUNs99PGDg0-unsplash.jpg";
 import aboutImage from "./ChatGPT Image Feb 9, 2026, 08_46_52 AM.png";
 import bikeMan from "./bike.png";
-
-import { DollarSign, Home, Info, MapPin, Star } from "lucide-react";
+import socialProofImage from "./salesImage.png";
+import {
+  Coffee,
+  DollarSign,
+  History,
+  Home,
+  Info,
+  MapPin,
+  Package,
+  Star,
+  Users,
+} from "lucide-react";
 
 export const assets = {
   image_of_a_plastic_coffee_cup,
@@ -18,6 +28,7 @@ export const assets = {
   aboutImage,
   bikeMan,
   logo,
+  socialProofImage,
 };
 
 export const details = {
@@ -109,5 +120,83 @@ export const reviews = [
     text: "Completely unmatched service, good and pricing. Genuinely, the best place in Melbourne for a cheap quality meal by a family owned business, friendly and incredibly polite. The coffee is amazing, the food is incredibly well priced. A coffee …",
     time: "a year ago",
     rating: 5,
+  },
+];
+
+export const coffeeTypes = [
+  {
+    name: "Classic Lungo",
+    price: 200,
+    favourite: false,
+    description: "Longer espresso shot with rich body and bold flavor",
+  },
+  {
+    name: "Lungo con Crema",
+    price: 220,
+    favourite: true,
+    description: "Lungo topped with thick golden crema and nutty notes",
+  },
+  {
+    name: "Lungo Macchiato",
+    price: 240,
+    favourite: false,
+    description: "Lungo with a small dollop of steamed milk foam",
+  },
+  {
+    name: "Caramel Lungo",
+    price: 250,
+    favourite: false,
+    description: "Lungo with smooth caramel syrup and light sweetness",
+  },
+  {
+    name: "Vanilla Lungo",
+    price: 240,
+    favourite: false,
+    description: "Lungo infused with natural vanilla for a creamy finish",
+  },
+  {
+    name: "Hazelnut Lungo",
+    price: 250,
+    favourite: true,
+    description: "Lungo with toasted hazelnut flavor and warm aroma",
+  },
+  {
+    name: "Lungo Americano",
+    price: 210,
+    favourite: false,
+    description: "Extra hot water added to lungo for a milder taste",
+  },
+  {
+    name: "Mocha Lungo",
+    price: 270,
+    favourite: false,
+    description: "Lungo blended with rich chocolate and subtle sweetness",
+  },
+];
+
+export const SocialProofStats = [
+  {
+    title: "Units Sold",
+    number: 112,
+    suffix: "K+",
+    icon: Package,
+  },
+  {
+    title: "Satisfied Customers",
+    number: 10,
+    suffix: "K+",
+    icon: Users, // or "Smile", "Heart", "UserCheck"
+  },
+  {
+    title: "Years of Experience",
+    number: 22,
+    suffix: "+",
+    icon: History, // or "Award", "Clock", "History"
+  },
+  {
+    title: "Coffee Brands",
+    number: 15,
+    suffix: "+",
+    icon: Coffee, // or "Coffee", "CupSoda", "Bean"
   },
 ];

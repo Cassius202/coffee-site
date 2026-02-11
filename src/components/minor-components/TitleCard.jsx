@@ -1,5 +1,3 @@
-import { MapPin } from "lucide-react";
-import { FaLocationPin } from "react-icons/fa6";
 
 function TitleCard ( {title, subtitle} ) {
   return <div className='flex flex-col gap-y-2.5 items-center'>

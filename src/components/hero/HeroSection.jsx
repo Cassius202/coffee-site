@@ -12,7 +12,7 @@ const HeroSection = () => {
           </span>
         </div>
       <div className="text-accent flex flex-col mt-2 sm:mt-18 lg:mt-25">
-        <h1 className="text-6xl font-semibold lg:text-left">
+        <h1 className="text-6xl xl:text-8xl font-semibold lg:text-left">
           Your Daily Pause, <br />
           <span className="font-fair font-extrabold">Poured Fresh</span>
         </h1>
